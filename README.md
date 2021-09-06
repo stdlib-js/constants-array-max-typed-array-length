@@ -124,6 +124,20 @@ try {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/array/max-array-length`][@stdlib/constants/array/max-array-length]: maximum length for a generic array.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -180,6 +194,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-array-max-typed-array-length/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/constants/array/max-array-length]: https://github.com/stdlib-js/constants-array-max-array-length
+
+<!-- </related-links> -->
 
 </section>
 
