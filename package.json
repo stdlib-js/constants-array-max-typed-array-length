@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/constants-array-max-typed-array-length",
+  "version": "0.0.0",
+  "description": "Maximum length for a typed array.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-array-max-typed-array-length.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "constant",
+    "const",
+    "length",
+    "len",
+    "typed",
+    "array",
+    "typed-array",
+    "typed array",
+    "maximum",
+    "max"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
