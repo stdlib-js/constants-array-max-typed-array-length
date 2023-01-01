@@ -37,7 +37,7 @@
   "dependencies": {},
   "devDependencies": {
     "@stdlib/array-ctors": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
