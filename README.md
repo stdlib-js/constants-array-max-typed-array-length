@@ -140,7 +140,7 @@ try {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/array/max-array-length`][@stdlib/constants/array/max-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a generic array.</span>
+-   <span class="package-name">[`@stdlib/constants-array/max-array-length`][@stdlib/constants/array/max-array-length]</span><span class="delimiter">: </span><span class="description">maximum length for a generic array.</span>
 
 </section>
 
