@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-array-max-typed-array-length
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-MAX_TYPED_ARRAY_LENGTH = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var MAX_TYPED_ARRAY_LENGTH = require( 'path/to/vendor/umd/constants-array-max-typed-array-length/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.MAX_TYPED_ARRAY_LENGTH;
-})();
-</script>
+var MAX_TYPED_ARRAY_LENGTH = require( '@stdlib/constants-array-max-typed-array-length' );
 ```
 
 #### MAX_TYPED_ARRAY_LENGTH
@@ -99,14 +91,9 @@ var len = MAX_TYPED_ARRAY_LENGTH;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ctors = require( '@stdlib/array-ctors' );
+var MAX_TYPED_ARRAY_LENGTH = require( '@stdlib/constants-array-max-typed-array-length' );
 
 function fill( dtype, len, value ) {
     var ctor;
@@ -131,11 +118,6 @@ try {
 } catch ( err ) {
     console.error( err.message );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -217,7 +199,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -235,7 +217,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/array/max-array-length]: https://github.com/stdlib-js/constants-array-max-array-length/tree/umd
+[@stdlib/constants/array/max-array-length]: https://github.com/stdlib-js/constants-array-max-array-length
 
 <!-- </related-links> -->
 
