@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@deno/mod.js';
+import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@v0.1.0-deno/mod.js';
 ```
 
 #### MAX_TYPED_ARRAY_LENGTH
@@ -88,7 +88,7 @@ var len = MAX_TYPED_ARRAY_LENGTH;
 
 ```javascript
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
-import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@deno/mod.js';
+import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@v0.1.0-deno/mod.js';
 
 function fill( dtype, len, value ) {
     var ctor;
