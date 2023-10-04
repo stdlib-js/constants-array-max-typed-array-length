@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-array-max-typed-array-length/tags). For example,
+
+```javascript
 import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@v0.1.1-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ var len = MAX_TYPED_ARRAY_LENGTH;
 
 ```javascript
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
-import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@v0.1.1-deno/mod.js';
+import MAX_TYPED_ARRAY_LENGTH from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-array-max-typed-array-length@deno/mod.js';
 
 function fill( dtype, len, value ) {
     var ctor;
