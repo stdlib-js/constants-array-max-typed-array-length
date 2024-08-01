@@ -198,8 +198,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-array-max-typed-array-length.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-array-max-typed-array-length
 
-[test-image]: https://github.com/stdlib-js/constants-array-max-typed-array-length/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/constants-array-max-typed-array-length/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/constants-array-max-typed-array-length/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/constants-array-max-typed-array-length/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-array-max-typed-array-length/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-array-max-typed-array-length?branch=main
